@@ -5,7 +5,7 @@ require 'optparse'
 options = {}
 file = ARGV.pop
 OptionParser.new do |opts|
-  opts.banner = "Usage: example.rb [options]"
+  opts.banner = "Usage: slicee.rb [options]"
 
   opts.on("-v", "--[no-]verbose", "Run verbosely") do |v|
     options[:verbose] = v
